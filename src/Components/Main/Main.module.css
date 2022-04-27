@@ -1,0 +1,99 @@
+.main {
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: var(--contentBackground);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 16px 30px rgba(70, 96, 187, 0.2));
+}
+
+.topMain {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;  
+    padding-left: 3vw;
+
+}
+
+.joinedDate {
+    margin-left: auto;
+    color: var(--textColor);
+}
+img {
+    width: 117px;
+}
+
+.name {
+    margin: 0;
+}
+
+.name {
+    color: var(--titleColor);
+}
+
+.user {
+    color: var(--buttonColor);
+}
+
+.bio {
+    display: flex;
+    color: var(--textColor);
+    max-width: 100%;
+    margin-bottom: 3vh;
+}
+
+
+
+.stats {
+    color: var(--titleColor);
+    background-color: var(--mainBackground);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 10vw;
+    margin-bottom: 3vh;
+
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.infoContainer {
+    width: 90%;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+.info {
+    color: var(--textColor);
+    padding: 1vh;
+}
+
+.firstInfoWrapper {
+    margin-right: auto;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
