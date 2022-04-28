@@ -13,7 +13,12 @@ export default function Main(props) {
       <div className={Styles.topMain}>
         <div className={Styles.userInfo}>
           <h1 className={Styles.name}>{props.user.login}</h1>
-          <h3 className={Styles.user}>@{props.user.login}</h3>
+
+          <h3 className={Styles.user}>
+            <a href={props.user.html_url} target="_blank">
+              @{props.user.login}
+            </a>
+          </h3>
 
           <span className={Styles.joinedDate}>
             Joined{" "}
